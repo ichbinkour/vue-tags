@@ -1,5 +1,5 @@
 {
-  "name": "vue-plugin",
+  "name": "vue-tags",
   "version": "0.0.1",
   "description": "Vue Plugin Boilerplate",
   "main": "dist/vue-plugin.js",
@@ -14,7 +14,7 @@
     "storybook": "start-storybook",
     "precommit": "lint-staged",
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.js",
-    "example:kitchensink": "poi -s examples/kitchensink/index.js"
+    "example": "poi -s example/index.js"
   },
   "lint-staged": {
     "src/**/*.js": [

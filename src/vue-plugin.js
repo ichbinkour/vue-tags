@@ -1,7 +1,7 @@
 import { devMode, registerVuexStore } from './utils';
 
 // Import your additional components here
-import VuePluginComponent from './vue-plugin-component.vue';
+import VueTagsComponent from './vue-tags-component.vue';
 
 export default class VuePlugin {
   // HERE IS YOUR PLACE TO DEVELOP YOUR COMPONENT
@@ -11,7 +11,10 @@ export default class VuePlugin {
       // This is your plugin's options. It will be accessible with this.options
       accessorName: '$myPlugin'
     };
-    this.options = { ...defaults, ...options };
+    this.options = {
+      ...defaults,
+      ...options
+    };
   }
 
   // Some instance methods that you can access from this.$myPlugin
@@ -25,7 +28,7 @@ export default class VuePlugin {
     // You can use `this.options` property to access options.
 
     // Delete this line if your plug-in doesn't provide any components
-    Vue.component('VuePlugin', VuePluginComponent);
+    Vue.component('VueTags', VueTagsComponent);
 
     // Vue.directive('your-custom-directive', customDirective);
 
@@ -45,12 +48,7 @@ export default class VuePlugin {
   };
 
   // Some lifecycle hooks to add on mixin
-  static mixin = () => ({
-    mounted() {
-      console.log('Hey! I am running on every mount, please remove me!');
-      console.log(this.$store);
-    }
-  });
+  static mixin = () => ({});
 
   ////////////////////////////////////
   // YOU MAY NOT NEED TO EDIT BELOW //

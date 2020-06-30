@@ -1,7 +1,7 @@
 <template>
   <div>
     Hello {{ msg }}!
-    <vue-plugin />
+    <vue-tags />
   </div>
 </template>
 
@@ -15,5 +15,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>
