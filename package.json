@@ -1,6 +1,6 @@
 {
   "name": "@ichbinkour/vue-tags",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create awesome tags for amazing projects",
   "author": "Valentin Ichkour <valentin.ichkour@epitech.eu>",
   "scripts": {
