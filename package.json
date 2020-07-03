@@ -19,8 +19,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.29",
     "@fortawesome/free-solid-svg-icons": "^5.13.1",
-    "@fortawesome/vue-fontawesome": "^0.1.10",
-    "node-sass": "^4.14.1"
+    "@fortawesome/vue-fontawesome": "^0.1.10"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
@@ -37,8 +36,10 @@
     "eslint-plugin-prettier": "^3.1.0",
     "husky": "^3.0.2",
     "lint-staged": "^9.2.1",
+    "node-sass": "^4.14.1",
     "poi": "^12.7.1",
     "prettier": "^1.18.2",
+    "sass-loader": "^9.0.0",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "vue": "^2.6.10",
     "vue-html-loader": "^1.2.4",

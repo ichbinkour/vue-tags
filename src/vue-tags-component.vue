@@ -62,7 +62,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .ic-tag {
   background-color: #e6e7e8;
   border-radius: 3px;
