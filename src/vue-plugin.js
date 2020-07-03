@@ -2,6 +2,14 @@ import { devMode, registerVuexStore } from './utils';
 
 // Import your additional components here
 import VueTagsComponent from './vue-tags-component.vue';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+
+library.add(fas);
+import Vue from 'vue';
+
+Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 export default class VuePlugin {
   // HERE IS YOUR PLACE TO DEVELOP YOUR COMPONENT
@@ -23,8 +31,6 @@ export default class VuePlugin {
   }
 
   static register = (Vue, options, store) => {
-    console.log('Here is the options of the component', options);
-    console.log('Here is the store of the app', store);
     // You can use `this.options` property to access options.
 
     // Delete this line if your plug-in doesn't provide any components
