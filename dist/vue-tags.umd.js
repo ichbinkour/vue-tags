@@ -1,5 +1,5 @@
 /*!
- * vue-tags v0.1.3 
+ * vue-tags v0.1.4 
  * (c) 2020 
  * Released under the undefined License.
  */
@@ -221,11 +221,11 @@
     /* style */
     const __vue_inject_styles__ = function (inject) {
       if (!inject) return
-      inject("data-v-74821287_0", { source: ".ic-tag[data-v-74821287]{background-color:#e6e7e8;border-radius:3px;margin-right:8px;padding:5px;color:#323232;display:inline-block}.ic-tags-container[data-v-74821287]{display:inline-block}.ic-delete-icon[data-v-74821287]{padding-left:5px;color:#37b77c}#tag[data-v-74821287]{font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:700;letter-spacing:.5px}", map: undefined, media: undefined });
+      inject("data-v-bef66ad4_0", { source: ".ic-tag[data-v-bef66ad4]{background-color:#e6e7e8;border-radius:3px;margin-right:8px;padding:5px;color:#323232;display:inline-block}.ic-tags-container[data-v-bef66ad4]{display:inline-block}.ic-delete-icon[data-v-bef66ad4]{margin-left:5px;color:#37b77c}#tag[data-v-bef66ad4]{font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:700;letter-spacing:.5px}", map: undefined, media: undefined });
 
     };
     /* scoped */
-    const __vue_scope_id__ = "data-v-74821287";
+    const __vue_scope_id__ = "data-v-bef66ad4";
     /* module identifier */
     const __vue_module_identifier__ = undefined;
     /* functional template */
@@ -245,7 +245,7 @@
       undefined
     );
 
-  var version = "0.1.3";
+  var version = "0.1.4";
   fontawesomeSvgCore.library.add(freeSolidSvgIcons.fas);
 
   var install = function install(Vue) {

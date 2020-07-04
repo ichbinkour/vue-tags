@@ -1,24 +1,31 @@
 # vue-tags
 
-## Project setup
+> A Vue plugin for awesome tags
+
+### Installation
+
 ```
-npm install
+npm i @ichbinkour/vue-tags
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+### Usage
+Inside any of your components:
+```js
+  <template>
+    <vue-tags 
+      :options="options" 
+      @delete-tag="(newTags) => (options = newTags)"
+      closable
+    />
+  </template>
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```js
+  <script>
+    data() {
+      return {
+        options: ['VueJs', 'vue', 'tags']
+      }
+    }
+  </script>
+```
