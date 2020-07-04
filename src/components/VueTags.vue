@@ -15,10 +15,11 @@
 
 <script>
 export default {
-  name: 'VueTags',
+  name: "VueTags",
   props: {
     options: {
-      type: Array
+      type: Array,
+      default: Array
     },
     closable: {
       type: Boolean
@@ -42,7 +43,7 @@ export default {
           optionsToParent.push(v.name);
         }
       });
-      this.$emit('delete-tag', optionsToParent);
+      this.$emit("delete-tag", optionsToParent);
     },
     updateList() {
       this.optionsList = [];
