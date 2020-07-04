@@ -1,5 +1,5 @@
 /*!
- * vue-tags v0.1.1 
+ * vue-tags v0.1.3 
  * (c) 2020 
  * Released under the undefined License.
  */
@@ -243,7 +243,7 @@ var __vue_staticRenderFns__ = [];
     undefined
   );
 
-var version = "0.1.1";
+var version = "0.1.3";
 library.add(fas);
 
 var install = function install(Vue) {

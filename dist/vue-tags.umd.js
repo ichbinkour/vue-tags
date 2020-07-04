@@ -1,5 +1,5 @@
 /*!
- * vue-tags v0.1.1 
+ * vue-tags v0.1.3 
  * (c) 2020 
  * Released under the undefined License.
  */
@@ -245,7 +245,7 @@
       undefined
     );
 
-  var version = "0.1.1";
+  var version = "0.1.3";
   fontawesomeSvgCore.library.add(freeSolidSvgIcons.fas);
 
   var install = function install(Vue) {

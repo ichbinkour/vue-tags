@@ -19,26 +19,26 @@ export default {
   props: {
     options: {
       type: Array,
-      default: Array
+      default: Array,
     },
     closable: {
-      type: Boolean
-    }
+      type: Boolean,
+    },
   },
   data() {
     return {
-      optionsList: []
+      optionsList: [],
     };
   },
   watch: {
     options() {
       this.updateList();
-    }
+    },
   },
   methods: {
     removeOption(toRemoveElem) {
       var optionsToParent = [];
-      this.optionsList.filter(v => {
+      this.optionsList.filter((v) => {
         if (v.id != toRemoveElem.id) {
           optionsToParent.push(v.name);
         }
@@ -47,19 +47,19 @@ export default {
     },
     updateList() {
       this.optionsList = [];
-      this.options.filter(v => {
+      this.options.filter((v) => {
         if (v) {
           this.optionsList.push({
             name: v,
-            id: Date.parse(new Date()) * Math.random(1, 10)
+            id: Date.parse(new Date()) * Math.random(1, 10),
           });
         }
       });
-    }
+    },
   },
   mounted() {
     this.updateList();
-  }
+  },
 };
 </script>
 
@@ -76,7 +76,7 @@ export default {
   display: inline-block;
 }
 .ic-delete-icon {
-  padding-left: 5px;
+  margin-left: 5px;
   color: #37b77c;
 }
 #tag {
