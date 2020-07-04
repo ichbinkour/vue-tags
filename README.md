@@ -9,11 +9,13 @@ npm i @ichbinkour/vue-tags
 ```
 
 ### Usage
+
 Inside any of your components:
+
 ```js
   <template>
-    <vue-tags 
-      :options="options" 
+    <vue-tags
+      :options="options"
       @delete-tag="(newTags) => (options = newTags)"
       closable
     />
@@ -22,6 +24,8 @@ Inside any of your components:
 
 ```js
   <script>
+    import VueTags from "@ichbinkour/vue-tags"
+
     data() {
       return {
         options: ['VueJs', 'vue', 'tags']
