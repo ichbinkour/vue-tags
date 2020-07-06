@@ -9,7 +9,7 @@
 
 The library vue-tags allows you to implement easily a list of tags in your Vue components.
 
-[Demo](https://google.com)
+[Demo](https://jsfiddle.net/ichbinkour/e5a1f6ps/11/)
 
 ## Documentation
 
