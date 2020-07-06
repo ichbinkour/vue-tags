@@ -49,10 +49,10 @@ data() {
 
 ## API
 
-| Props      | Description                         |
-| :--------- | :---------------------------------- |
-| `options`  | Array of tags name of type `String` |
-| `closable` | Add an icon to close the tag        |
+| Props      | Type |Description                         |
+| :--------- | :----|:------------------------------ |
+| `options`  | `String` |Array of tags name of type |
+| `closable` | |Add an icon to close the tag        |
 
 | Methods        | Description                                           |
 | :------------- | :---------------------------------------------------- |
