@@ -51,8 +51,8 @@ data() {
 
 | Props      | Type |Description                         |
 | :--------- | :----|:------------------------------ |
-| `options`  | `String` |Array of tags name of type |
-| `closable` | |Add an icon to close the tag        |
+| `options`  | `Array` |Array of tags name of type |
+| `closable` | `Boolean` - Default `false`|Add an icon to close the tag        |
 
 | Methods        | Description                                           |
 | :------------- | :---------------------------------------------------- |
